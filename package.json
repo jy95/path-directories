@@ -1,0 +1,33 @@
+{
+  "name": "path-directories",
+  "version": "0.0.0-development",
+  "description": "Get all directories contained in a string file path",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jy95/path-dirnames.git"
+  },
+  "keywords": [
+    "dirname",
+    "directories",
+    "directory",
+    "cross-plateform",
+    "folders",
+    "folder"
+  ],
+  "author": "jy95",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jy95/path-dirnames/issues"
+  },
+  "homepage": "https://github.com/jy95/path-dirnames#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "semantic-release": "^15.1.4"
+  }
+}
