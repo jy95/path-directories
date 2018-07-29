@@ -1,6 +1,6 @@
 {
   "name": "path-directories",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Get all directories contained in a string file path",
   "main": "index.js",
   "scripts": {
