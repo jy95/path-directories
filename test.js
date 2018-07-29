@@ -4,7 +4,9 @@ const expect = chai.expect;
 
 const testCases = [
     ["D:\\DDL\\ANIME\\les chevaliers du zodiaques\\whateverFile.avi", [ 'D:', 'DDL', 'ANIME', 'les chevaliers du zodiaques' ] ],
-    ["D:/DDL/EBOOK/whatEverFile.pub", [ 'D:', 'DDL', 'EBOOK' ] ]
+    ["D:/DDL/EBOOK/whatEverFile.pub", [ 'D:', 'DDL', 'EBOOK' ] ],
+    ["/foo", ["/"] ],
+    ["D:\\test.avi", ["D:"] ],
 ];
 
 describe('Should provide the requested data', () => {
